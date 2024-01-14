@@ -2,11 +2,16 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  text-align: left; /* Align text "Projects" to the left */
-  gap: 0px; /* Adjust the gap between cards as needed */
-  max-width: 900px; /* Set a maximum width for the card container */
-  margin: 0 auto; /* Horizontally center the container */
-  padding: 0; /* Remove any default padding */
+  text-align: left;
+  /* Align text "Projects" to the left */
+  gap: 0px;
+  /* Adjust the gap between cards as needed */
+  max-width: 1200px;
+  /* Set a maximum width for the card container */
+  margin: 0 auto;
+  /* Horizontally center the container */
+  padding: 0;
+  /* Remove any default padding */
   margin-bottom: 0;
 }
 
@@ -14,22 +19,30 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: start;
-  gap: 0px; /* Adjust the gap between cards as needed */
-  max-width: 900px; /* Set a maximum width for the card container */
-  margin: 0 auto; /* Horizontally center the container */
-  padding: 10; /* Remove any default padding */
+  gap: 0px;
+  /* Adjust the gap between cards as needed */
+  max-width: 900px;
+  /* Set a maximum width for the card container */
+  margin: 0 auto;
+  /* Horizontally center the container */
+  padding: 10;
+  /* Remove any default padding */
   margin-bottom: 0;
 }
 
 .card-deck {
-  margin: 0; /* Remove spacing between cards */
+  margin: 0;
+  /* Remove spacing between cards */
 }
 
 .card {
-  flex: 0 0 calc(33.33% - 10px); /* Three cards per row with a gap */
-  max-width: 100%; /* Ensure the cards don't stretch beyond their container */
+  flex: 0 0 calc(33.33% - 10px);
+  /* Three cards per row with a gap */
+  max-width: 100%;
+  /* Ensure the cards don't stretch beyond their container */
   /* Add any other styles you want for your cards */
-  padding: 0 15px; /* Add spacing between cards */
+  padding: 0 15px;
+  /* Add spacing between cards */
 }
 
 .left-aligned {
@@ -38,7 +51,7 @@
 
 @media (max-width: 768px) {
   .card {
-    flex: 0 0 calc(100% - 10px); /* On mobile, cards take full width */
+    flex: 0 0 calc(100% - 10px);
+    /* On mobile, cards take full width */
   }
 }
-  
